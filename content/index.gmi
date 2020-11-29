@@ -1,1 +1,8 @@
-Hello, and welcome to my Gemini capsule.
+# rlamacraft
+
+Hello, and welcome to my little space in the Geminisphere.
+
+## My Places on the Web
+=> https://rlamacraft.uk Website :: rlamacraft.uk
+=> https://qoto.org/@rlamacraft Mastodon :: @rlamacraft@qoto.org
+=> https://github.com/rlamacraft GitHub :: rlamacraft
