@@ -47,7 +47,7 @@ And append the following
 @reboot bash run-server.sh
 ```
 
-And that's it, your done.
+And that's it, you're done.
 
 ~~~
 Last Updated: 2020-11-29
