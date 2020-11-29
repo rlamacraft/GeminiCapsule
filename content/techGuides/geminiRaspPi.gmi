@@ -1,0 +1,54 @@
+# Running a Gemini server on a first-gen Raspberry Pi
+
+Here records the trials and tribulations of a lost weekend.
+
+Most of these steps presumably work equally well on any device, minus the build of the server software. 
+
+## Setup instructions
+
+1. Download Adrian Hesketh's server software.
+* For the first gen raspberry pi you want the "armv6" build
+=> https://adrianhesketh.com Adrian Hesketh
+=> https://github.com/a-h/gemini GitHub repo
+
+2. Certificate Generation
+* Run the following command to generate a key
+``` shell
+openssl ecparam -genkey -name secp384r1 -out server.key
+```
+* Run this, making sure to specify the domain of the server for the hostname when requsted
+``` shell
+openssl req -new -x509 -sha256 -key server.key -out server.crt -days 3650
+```
+
+3. Create a hello world Gemini file, for testing purposes
+``` shell
+mkdir content
+echo "# Hello, World!" > content/index.gmi
+```
+
+4. Run the server, and make sure it all works
+* Be sure to change the domain to yours with this one
+* Once its running use your gemini client of choice to check it all works
+``` shell
+gemini serve --domain=example.com --certFile=server.crt --keyFile=server.key --path=content
+```
+
+5. Create a script to simplify running
+* Just cd to where the server program is and run the command as it appears in step 4, calling the script "run-server.sh"
+
+6. Tell cron to run it at startup
+Run
+``` shell
+crontab -e
+```
+And append the following
+``` shell
+@reboot bash run-server.sh
+```
+
+And that's it, your done.
+
+~~~
+Last Updated: 2020-11-29
+=> / ..
