@@ -14,4 +14,8 @@ The following is a list of brief guides for various programming related things.
 
 => techGuides/geminiRaspPi.gmi Running a Gemini server on a first-gen Raspberry Pi
 
+### 🎁 Advent
+Meandering thoughts for every day of advent.
+
+=> advent/01.gmi December 1st -- some thoughts on interactive capsules.
 

@@ -1,0 +1,15 @@
+# December 1st -- some thoughts on interactive capsules.
+
+Just set myself up a Gemini server this past weekend, and then I stumble across ew0k's great idea[1] to post every day of advent -- which seems like a simply grand idea to make the most of this new and exciting platform. Shamelessly copying.
+=> gemini://tilde.team/~ew0k/december-1st-morning-run.gmi 1
+
+Over the past week of learning about Gemini and exploring all manner of interesting projects that people are working on and talking about got me thinking. I think it would be cool to build some games that people could play. Just simple stuff. Maybe a text adventure. Hangman. Definitely hangman -- given quite some though as to how that could work. Maybe some multiplayer stuff too where other people could drop by and work together to solve some set of problems. It's cool to read everyone's gemlogs but it would be cool to do some more interactive stuff too.
+
+I guess the problem with multiplayer stuff at the moment is having the critical masss to make it work. I think that mozz.us's chat[2] is pretty neat, but with only a few people coming and going it feels like we're all just ships passing in the night.
+=> gemini://chat.mozz.us/ 2
+
+Anyway, it's some food for thought.
+
+~~~
+Last Updated: 2020-12-01
+=> / ..
