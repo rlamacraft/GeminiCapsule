@@ -1,0 +1,15 @@
+# December 2nd -- The Web is nothing short of a stinking pile of garbage.
+
+Like hundreds of millions of other souls trapped in this consumerist dystopia, I have been spending way too much of my time browsing the awful websites of highstreet retailers recently. And oh boy are they awful.
+
+Each deviates very little from the cookie-cutter design. Endless short pages of grids of items. Page after page after page. Is fetching the whole damn list really too much to ask? I'll wait. Is caching it really so hard? Perhaps it is, perhaps you need pagination for some arcane reason, well then make sure you do it right! When I go to the next page take me to the top of the list; don't make me then scroll back to the top once you've changed what I'm looking at. And make the buttons BIG -- don't make me scroll up and down looking for whichever rock you've hidden those buttons under.
+
+And then we get into filtering. Most offer some way to filter the products (many do not), but they always lack for granularity, especially when it comes to product categories. Here's an easy solution: tag each product with a handful of easily searchable terms. Let me add those tags to a list. Offer up similar tags as I do. Easy.
+
+Next: don't show me sold out items. When I go into the store, you don't show me pictures of things I can't buy so don't do it online. It's that simple. And if you really must make it REALLY obvious. If I can browse your endless stream of stuff for half an hour before realising most of what I'm looking is sold out then you've done it wrong. Very wrong. Grey it out. Cover it in yellow on black text. Or just hide it entirely. It's not hard.
+
+Okay, rant over.
+
+~~~
+Last Updated: 2020-12-02
+=> / ..
