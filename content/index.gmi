@@ -20,4 +20,5 @@ Meandering thoughts for every day of advent.
 => advent/01.gmi December 1st -- Some thoughts on interactive capsules.
 => advent/02.gmi December 2nd -- The Web is nothing short of a stinking pile of garbage.
 => advent/03.gmi December 3rd -- First snow
+=> advent/04.gmi December 4th -- Gift giving
 
