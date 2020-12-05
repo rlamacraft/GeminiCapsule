@@ -12,14 +12,14 @@ Hello, and welcome to my little space in the Geminisphere.
 ### 🖥 Programming Guides
 The following is a list of brief guides for various programming related things.
 
-=> techGuides/geminiRaspPi.gmi Running a Gemini server on a first-gen Raspberry Pi
+=> techGuides/geminiRaspPi.gmi 2020-11-29 Running a Gemini server on a first-gen Raspberry Pi
 
 ### 🎁 Advent
 Meandering thoughts for every day of advent.
 
-=> advent/01.gmi December 1st -- Some thoughts on interactive capsules.
-=> advent/02.gmi December 2nd -- The Web is nothing short of a stinking pile of garbage.
-=> advent/03.gmi December 3rd -- First snow
-=> advent/04.gmi December 4th -- Gift giving
-=> advent/05.gmi December 5th -- My covid carbon footprint
+=> advent/01.gmi 2020-12-01 -- Some thoughts on interactive capsules.
+=> advent/02.gmi 2020-12-02 -- The Web is nothing short of a stinking pile of garbage.
+=> advent/03.gmi 2020-12-03 -- First snow
+=> advent/04.gmi 2020-12-04 -- Gift giving
+=> advent/05.gmi 2020-12-05 -- My covid carbon footprint
 
