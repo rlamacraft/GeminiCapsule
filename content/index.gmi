@@ -12,19 +12,19 @@ Hello, and welcome to my little space in the Geminisphere.
 ### 🖥 Programming Guides
 The following is a list of brief guides for various programming related things.
 
-=> techGuides/geminiRaspPi.gmi 2020-11-29 -- Running a Gemini server on a first-gen Raspberry Pi
+=> techGuides/geminiRaspPi.gmi 2020-11-29 :: Running a Gemini server on a first-gen Raspberry Pi
 
 ### 🥧 Recipes
 An assortment of the recipes I've put together/perfected.
 
-=> recipes/pastry.gmi 2020-12-06 -- Pastry
+=> recipes/pastry.gmi 2020-12-06 :: Pastry
 
 ### 🎁 Advent
 Meandering thoughts for every day of advent.
 
-=> advent/01.gmi 2020-12-01 -- Some thoughts on interactive capsules.
-=> advent/02.gmi 2020-12-02 -- The Web is nothing short of a stinking pile of garbage.
-=> advent/03.gmi 2020-12-03 -- First snow
-=> advent/04.gmi 2020-12-04 -- Gift giving
-=> advent/05.gmi 2020-12-05 -- My covid carbon footprint
-=> advent/06.gmi 2020-12-06 -- I made a 5-veggie pie
+=> advent/01.gmi 2020-12-01 :: Some thoughts on interactive capsules.
+=> advent/02.gmi 2020-12-02 :: The Web is nothing short of a stinking pile of garbage.
+=> advent/03.gmi 2020-12-03 :: First snow
+=> advent/04.gmi 2020-12-04 :: Gift giving
+=> advent/05.gmi 2020-12-05 :: My covid carbon footprint
+=> advent/06.gmi 2020-12-06 :: I made a 5-veggie pie
