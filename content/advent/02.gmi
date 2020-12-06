@@ -10,6 +10,6 @@ Next: don't show me sold out items. When I go into the store, you don't show me 
 
 Okay, rant over.
 
-~~~
+## ~~~
 Last Updated: 2020-12-02
 => / ..
