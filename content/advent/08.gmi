@@ -1,0 +1,11 @@
+# December 8th -- Ed Mastery
+
+I picked up a book on the `ed` text editor today, the standard UNIX editor. It's a fun little read and it was only a couple of bucks on Amazon. Binary numbering of chapters thrw me initially and I wondered how on earth there could be 100 chapter's worth of stuff to say on the minimal program. It's not that long, nor should it be.
+
+It's the simplicity of the tool that appeals to me. I justify my interest as saying that it'll give me lots of automation capabilities, but then how often am I realistically editing dozens of files in the same way. There's also the argument of its distraction-free nature. You can't see the entire document and in some cases that's a benefit. Took minutes in a meeting today using `ed` and it was really nice to just append points to each section.
+
+I wouldn't go so far as the author of Ed Mastery goes (whether they're entirely sincere is not entirely clear to me), in that I don't think it is essential for anyone who wants to consider themselves a competant engineer but it is neat to pick up something so primitive. It's like learning how to start a fire with sticks and flint. Not entirely practical, but fun.
+
+## ~~~
+Last Updated: 2020-12-08
+=> / ..

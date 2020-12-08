@@ -29,3 +29,4 @@ Meandering thoughts for every day of advent.
 => advent/05.gmi 2020-12-05 :: My covid carbon footprint
 => advent/06.gmi 2020-12-06 :: I made a 5-veggie pie
 => advent/07.gmi 2020-12-07 :: Scottish weather be crazy
+=> advent/08.gmi 2020-12-08 :: Ed Mastery
