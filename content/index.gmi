@@ -31,3 +31,4 @@ Meandering thoughts for every day of advent.
 => advent/07.gmi 2020-12-07 :: Scottish weather be crazy
 => advent/08.gmi 2020-12-08 :: Ed Mastery
 => advent/09.gmi 2020-12-09 :: A Long Busy Day
+=> advent/10.gmi 2020-12-10 :: So I've started to mix up some keys
