@@ -18,6 +18,7 @@ The following is a list of brief guides for various programming related things.
 An assortment of the recipes I've put together/perfected.
 
 => recipes/pastry.gmi 2020-12-06 :: Pastry
+=> recipes/pancakes.gmi 2020-12-10 :: Pancakes
 
 ### 🎁 Advent
 Meandering thoughts for every day of advent.
