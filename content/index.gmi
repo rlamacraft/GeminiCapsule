@@ -34,3 +34,4 @@ Meandering thoughts for every day of advent.
 => advent/09.gmi 2020-12-09 :: A Long Busy Day
 => advent/10.gmi 2020-12-10 :: So I've started to mix up some keys
 => advent/11.gmi 2020-12-11 :: Harry Potter Audiobooks
+=> advent/12.gmi 2020-12-12 :: Half way through advent
