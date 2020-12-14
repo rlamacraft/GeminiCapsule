@@ -19,6 +19,7 @@ An assortment of the recipes I've put together/perfected.
 
 => recipes/pastry.gmi 2020-12-06 :: Pastry
 => recipes/pancakes.gmi 2020-12-10 :: Pancakes
+=> recipes/5daybread.gmi 2020-12-14 :: 5-Day Bread
 
 ### 🎁 Advent
 Meandering thoughts for every day of advent.
@@ -36,3 +37,4 @@ Meandering thoughts for every day of advent.
 => advent/11.gmi 2020-12-11 :: Harry Potter Audiobooks
 => advent/12.gmi 2020-12-12 :: Half way through advent
 => advent/13.gmi 2020-12-13 :: File types are not either-or
+=> advent/14.gmi 2020-12-14 :: I'm in the middle of my 5-day bread recipe

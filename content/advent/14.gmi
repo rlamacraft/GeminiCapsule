@@ -1,0 +1,14 @@
+# December 14th -- I'm in the middle of my 5-day bread recipe
+
+I know the idea of spending 5 days to make a loaf of bread sounds like insanity, and I won't deny that it is, but in my defense its actually much easier than trying to make a great loaf of bread quickly. 
+
+The main reason for this is that it is a fermentation project and especially using a sourdough starter, the best results cannot be rushed. With more time, more complex flavours have a chance to develop. Time also does a lot of the otherwise manual work. All of the bread I make I do so by hand; I don't own a standmixer of any kind. I don't mind doing the kneeding by hand but if I can just leave the dough overnight in the fridge and get the same results then that's what I'm going to do. 
+
+There's also the fact that doing a little per day works well with my schedule as I'm lucky enough to have a remote job. Its nice to take a break from writing code to shape a dough or pull a loaf out of the oven.
+
+Anyway, here's the recipe.
+=> ../recipes/5daybread.gmi
+
+## ~~~
+Last Updated: 2020-12-14
+=> / ..
