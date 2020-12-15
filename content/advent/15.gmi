@@ -1,0 +1,24 @@
+# December 15th -- Gift ideas notes
+
+I keep notes on ideas for buying gifts for people, be it for Christas, their birthday, or any other reason. Whenever they happen to mention liking or wanting a particular thing or if I see something online that I think someone might like, I make a note of it. These notes have evolved a good deal and over this Christmas period I'm migrating these notes, along with all of my other notes on everything from programming project ideas, recipes, and much else besides to a new system based around plain text files.
+
+## Google Keep
+
+I originally stored notes for gift ideas in Google Keep. It worked well because each short note could be a single idea, each could be tagged with the people for whom it would be a good gift, and it had good integration with iOS's share functionality enable ease of quickly storing links. I stopped using Google Keep when I started to spend more time using iPads, for which the interface was very clunky and unresponsive, and I generally wanted to de-Google my life (today I am basically just stuck with Gmail and YouTube).
+
+## Bear
+
+I then moved all of my notes, gift ideas included, into Bear. Native iOS app had a much better experience than Google Keep and markdown support enabled me to flesh out my notes a bit more. However, mainly due to only being able to view one note at a time, Bear encourages long notes that include lots of information and therefore I had to resort to having a single note per person and listing the ideas, adding them to multiple people's notes where an idea was applicable to multiple peope. 
+
+I also found recently that Bear lacks for the more capable search functionality that I have come to love from plaintext files. Over the past year I have really moved towards the benefits of plaintext files. I took to using Emacs as my main editor (and since Spacemacs because Vim keybindings are the absolute jam), and managed my masters' thesis and now my day-to-day work using org-mode. I'm really enjoying Gemini and actually write these posts using Ed, the standard UNIX text editor. And yet, my personal notes remain locked in a propietary system. I just got very frustrated lately when I just wanted to find any gift ideas I'd saved for a particular store as I had a way of saving money from purchases made there. It was just impossible; made double infuriating knowing that I could easily get this information with a simple grep command.
+
+## recutils
+
+And so today I stumbled across recutils[1]. Plaintext human-readable database with simple functionality for querying and filtering the data. I was already leaning towards using iSH on iOS for accessing my notes there (there just doesn't seem to be a good way to write any kind of plaintext files on iOS -- .org, .gmi, anything), so a CLI solution is probably just fine. Seems a bit ridiculous to use a VM to just view and edit some plaintext files but then its a bit ridiculous that a *general purpose computer* can't expose the capabilities to edit blocks of UTF-8 encoded binary data!
+=> https://www.gnu.org/software/recutils/manual/ [1] :: gnu.org :: recutils
+
+Seems this is where I'll be moving my gifting notes. Will need to have a bit of a play to be certain. Make sure it can work on all the platforms I'd need it to. Might even move all my recipes there after; would be good to be able to query all of the recipes by what ingredients I have that need using up. 
+
+## ~~~
+Last Updated: 2020-12-15
+=> / ..

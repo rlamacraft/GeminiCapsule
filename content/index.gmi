@@ -38,3 +38,4 @@ Meandering thoughts for every day of advent.
 => advent/12.gmi 2020-12-12 :: Half way through advent
 => advent/13.gmi 2020-12-13 :: File types are not either-or
 => advent/14.gmi 2020-12-14 :: I'm in the middle of my 5-day bread recipe
+=> advent/15.gmi 2020-12-15 :: Gift ideas notes
