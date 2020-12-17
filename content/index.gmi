@@ -40,3 +40,4 @@ Meandering thoughts for every day of advent.
 => advent/14.gmi 2020-12-14 :: I'm in the middle of my 5-day bread recipe
 => advent/15.gmi 2020-12-15 :: Gift ideas notes
 => advent/16.gmi 2020-12-16 :: I can relax now
+=> advent/17.gmi 2020-12-17 :: Pistol Shrimp and Gobi Fish
