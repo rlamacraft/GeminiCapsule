@@ -1,0 +1,13 @@
+# December 18th -- Virtual machine project
+
+Last year I spent a good amount of time building almost computers on breadboards: finite automata that could do basic multiplication, 4-bit machine with very basic conditional logic, that kind of thing. The experience really helped me understand how we go from transitors to basic code execution. What I still don't understand is how we go from that to modern operating systems. I did once follow a tutorial on building a basic bootsector and I have done some assembly programming before, but my knowledge in this area is largely academic, and so I thought over the Christmas period I'd write a simple virtual machine and start building some of the tech stack.
+
+Things I'd like to accomplish is everything from rendering text on virtual display, memory managent (stack,  heap, etc), interfacing with a storage medium, and then eventually a basic text editor, an assembler for itself and an interactive shell. Probably months of work in total.
+
+The thing is, I also want to do something a bit whacky with it. I'm not happy just buiding a binary-based Von Neuman machine. I'm considering doing it all with ternary logic, maybe, with all of the complexity and rethinking of the fundamentals that that would entail. Or instead to take a stream-based reactive model with a collection of computation nodes in a graph, like the game TIS-100. Each node performing a small part of the computation, with specialised nodes for doing I/O and interfacing with non-volatile storage.
+
+Lots of nebulous ideas at the moment.
+
+## ~~~
+Last Updated: 2020-12-18
+=> / ..
