@@ -1,0 +1,18 @@
+# December 19th -- What a fantastic day
+
+I have really had a fantastic day!
+
+I started, as almost all Saturdays do, with pancakes[1]. For the first time in a while they all came out perfect; not a single sticking to the pan. Well seasoned cast iron behaving as it should.
+=> ../recipes/pancakes.gmi [1] :: Pancakes
+
+Did a bit of cleaning and tidying. Today feels like the first day of Christmas, even though I'm working most of next week, and making everything feel nice and ready is a nice feeling. Put up some tinsle and some lights.
+
+I then did a bit of coding. Been working through a virtual-machine writing tutorial[2] just to make sure I can walk before I try to run[3]. Tomorrow I shall try to write some programs for this VM.
+=> https://justinmeiners.github.io/lc3-vm/index.html [2] :: Write your Own Virtual Machine
+=> ./18.gmi [3] :: Advent post #18
+
+And then I finished the day with some fresh pasta, beef and haggis meatballs, and garlic bread. Awesome dinner. 
+
+## ~~~
+Last Updated: 2020-12-19
+=> / ..
