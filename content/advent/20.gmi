@@ -1,0 +1,12 @@
+# December 20th -- Handcrafted, artisanal object code
+
+I've spent the day writing object code by hand. After going through a tutorial yesterday[1] on building a VM I spent much of today writing some code for it to execute. I wrote a hello world program (naturally), then a simple tool for reading in single digit numbers and calculating their sum, and then finally evolving it into any algorithm for mulitiply such numbers; thereby using conditional and unconditional jumps and all of the other "compex" functionality.
+=> ./19.gmi [1] :: What a fantastic day
+
+For those who have done plenty of high level programming before but nothing low-level, it's definitely worth spending some time learning -- very eye opening. I wouldn't necessary recommend going straight in with machine code; some form of assembly would be a little more approachable. Assemblers give you niceties like abstract memory location references for jumping, which you don't get when writing maching code by hand, and even rather trivial stuff like comments. Writing machine code, I end up using an assembly-like language for keeping notes, and then hand-transcribing those instructions into an object file: the invention of assembly code is a rather naturally one.
+
+There's just something quite therapeutic about knowing that every byte of this file was handcrafted by me.
+
+## ~~~
+Last Updated: 2020-12-20
+=> / ..
