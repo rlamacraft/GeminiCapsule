@@ -44,3 +44,4 @@ Meandering thoughts for every day of advent.
 => advent/18.gmi 2020-12-18 :: Virtual machine project
 => advent/19.gmi 2020-12-19 :: What a fantastic day
 => advent/20.gmi 2020-12-20 :: Handcrafted, artisanal object code
+=> advent/21.gmi 2020-12-21 :: MacOS Big Sur

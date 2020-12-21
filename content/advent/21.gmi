@@ -1,0 +1,11 @@
+# December 21th -- MacOS Big Sur
+
+Controversial opinion incoming, but I actually quite like the design of Apple's latest desktop operating system. There are many things I don't like about the direction Apple is taking with their OS, including the privacy-invading telemetry and annoying app-restart-required permissioning, but the design of the UI is not one of them.
+
+I like the way I can hide more status icons in a menu-ing system than ever. The extra pop of colour and transparency throughout works well and the standardisation of sidebars and icons across their apps is nice (the past few years has been a steady progression of divergence).
+
+I still don't think its going to be enough to convince me to stick with MacBooks when this old boy finally dies, but I'll give credit where credit is due: Apple knows how to make shiny things.
+
+## ~~~
+Last Updated: 2020-12-21
+=> / ..
