@@ -1,0 +1,7 @@
+# December 22th -- Working alone
+
+For the first time I did a days work without speaking a word to a colleague. Having a now remote job, coupled with it being the week before Christmas and therefore most of the team is off, I spent the entire day do lazy bits of coding. Playing with some Web animations. Might try and animate an SVG icon tomorrow. Learning new skills, when better than when there's nothing else going on? Then there after I'm off until the new year. Going to spend some time on the VM project, am going to migrate all of my notes to plaintext files, and of course spending time with friends and family (as much as one can). It's going to be a good few weeks, albeit low key.
+
+## ~~~
+Last Updated: 2020-12-22
+=> / ..
