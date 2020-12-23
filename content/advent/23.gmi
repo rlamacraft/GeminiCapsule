@@ -1,0 +1,11 @@
+# December 23th -- Animated SVGs: not as hard as they look
+
+It being the last working day of the year, and all of my team being off I decided today would be a great opportunity to have a play with a design idiom that I really quite like wherever I see it. After getting an excusable amount of real work done (a few hours of refactoring and code cleanup) I got down to refreshing my knowledge of how SVGs work and began to design my own animation.
+
+I always think it's cool whenever some icon smoothly transitions into another; be it some player controls that changes state, a submit button that animates into a loading spinner, or a hamburger menu that turns into a cross. I think it always shows the level of care and attention that the designers gave to their craft and it makes the software feel excited to be of service. I believe it was G****e's Material design system that popularised the idea, but its pretty widespread now, and its really not as difficult to do as you might imagine.
+
+It's the little things that I think really make the difference.
+
+## ~~~
+Last Updated: 2020-12-23
+=> / ..
