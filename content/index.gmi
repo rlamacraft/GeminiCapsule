@@ -47,3 +47,4 @@ Meandering thoughts for every day of advent.
 => advent/21.gmi 2020-12-21 :: MacOS Big Sur
 => advent/22.gmi 2020-12-22 :: Working alone
 => advent/23.gmi 2020-12-23 :: Animated SVGs: not as hard as they look
+=> advent/24.gmi 2020-12-24 :: Christmas Eve
