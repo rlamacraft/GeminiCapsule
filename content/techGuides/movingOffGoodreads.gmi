@@ -1,7 +1,7 @@
 # Moving off of Goodreads
 
-In my quest to migrate off of over-engineered bit-tech solutions to trivial problems I have just downloaded the list I maintained on Goodreads of interesting books to one day, maybe, get around to reading. Instead, I now use a recfile[1], allowing me to trivially search by tags when looking for a new book.
-=> https://www.gnu.org/software/recutils/manual/recutils.html [1]
+In my quest to migrate off of over-engineered big-tech solutions to trivial problems I have just downloaded the list I maintained on Goodreads of interesting books to one day, maybe, get around to reading. Instead, I now use a recfile[1], allowing me to trivially search by tags when looking for a new book.
+=> https://www.gnu.org/software/recutils/manual/recutils.html [1] :: GNU.org :: Recutils
 
 Goodreads provides an export as CSV option (yay!) from which I was able to hack together the following AWK script for pulling out the book title, author, date added to the list, and bookshelves (which I use as tags) and then printing them in a recfile format. With a little bit of preamble, this just works.
 
@@ -25,9 +25,9 @@ awk -v FPAT='[^,]*|"[^"]+"' 'BEGIN{
 => https://gist.github.com/rlamacraft/584895cb2d7fff60395fa83d9b66e468 GitHub Gist
 
 For more explanation on the FPAT variable when parsing CSV, take a look at the StackOverflow post[2] and the GNU docs[3] that helped me figure that out.
-=> https://stackoverflow.com/questions/45420535/whats-the-most-robust-way-to-efficiently-parse-csv-using-awk [2]
-=> https://www.gnu.org/software/gawk/manual/gawk.html#Splitting-By-Content [3]
+=> https://stackoverflow.com/questions/45420535/whats-the-most-robust-way-to-efficiently-parse-csv-using-awk [2] :: StackOverflow :: What's the most robust way to efficiently parse CSV using AWK?
+=> https://www.gnu.org/software/gawk/manual/gawk.html#Splitting-By-Content [3] :: GNU.org :: GAWK :: Splitting By Content
 
 ## ~~~
-Last Updated: 2021-01-02
+Last Updated: 2021-01-03
 => / ..
