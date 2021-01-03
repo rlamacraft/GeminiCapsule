@@ -22,6 +22,11 @@ An assortment of the recipes I've put together/perfected.
 => recipes/pancakes.gmi 2020-12-10 :: Pancakes
 => recipes/5daybread.gmi 2020-12-14 :: 5-Day Bread
 
+### 🎶 Music
+I have a bit of an odd taste in music.
+
+=> music/bardcore.gmi 2021-01-03 :: Bardcore
+
 ### 🎁 Advent
 Meandering thoughts for every day of advent.
 
