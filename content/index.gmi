@@ -21,6 +21,7 @@ An assortment of the recipes I've put together/perfected.
 => recipes/pastry.gmi 2020-12-06 :: Pastry
 => recipes/pancakes.gmi 2020-12-10 :: Pancakes
 => recipes/5daybread.gmi 2020-12-14 :: 5-Day Bread
+=> recipes/roastpotatoes.gmi 2021-01-07 :: Roast Potatoes / Oven Chips
 
 ### 🎶 Music
 I have a bit of an odd taste in music.
