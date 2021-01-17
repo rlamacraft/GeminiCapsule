@@ -1,0 +1,104 @@
+# Union Types in JavaScript
+
+One feature that I think all languages should have is some form of union types (sum types, algebraic data types, tagged unions, whatever you want to call them). It's such an elegant way to solve the very common scenario where there are multiple different shapes to data. They form an abstraction to common features like enums and linked lists, and give power to much more expressive data models. Despite the growing popularity of union types, most of the world's most popular languages still lack them including the world's most popular: JavaScript. With the power of Church Encoding we can, however, add union types in a surprising and elegant fashion.
+
+## Church Encoding
+
+Church encoding is way of modelling the shape of data using nothing but functions and falls out of the early research done into lambda calculus and its equivalence to Turing machines. For those not familiar, it is worth reading up on this stuff and its very fascinating (there are a number of good YouTube videos on the topic).
+
+### Natural Numbers
+
+The first example usually given is defining the set of Natural numbers, which we define as either zero, or the successor of another natural number. One is the successor to zero, two is the successor to one, and so on.
+
+In Church Encoding we can define a Natural number as a function that takes an argument representing zero, and an argument representing the successor function, and returns a natural number. In JavaScript it would look like this:
+
+```
+const Zero = zero => suc => zero;
+const One = zero => suc => suc(zero);
+const Two = zero => suc => suc(suc(zero));
+// and so on...
+```
+
+### Maybe
+
+The second example is usually the Maybe type, which is a special (and somewhat simpler) case of union types. A far superior alternative to working with values that could be null.
+
+Maybe can be defined as a function that takes a value representing the Nothing case, and a function that takes a value to represent the Just case.
+
+```
+const Nothing = nothing => just => nothing;
+const JustA = nothing => just => just('A');
+```
+
+### Linked Lists
+
+Whilst we're here next example usually given is a linked lists. Not strictly necessary in showing we can define all possible union types but these are useful all the same in showing that recursive data structures are possible.
+
+These are defined as a function which takes a valud representing the empty list (some kind of null value), and a function takes takes both a value to store in the list, and the rest of the linked list.
+
+```
+const EmptyList = nil => rest => nil;
+const SingletonA = nil => rest => rest('A', nil);
+const AandB = nil => rest => rest('A', rest('B', nil));
+```
+
+### Either
+
+Finally, the most generic union types from which we can define all others.
+
+Here, we have a function that takes two other functions. One that takes a value and creates a piece of data that represents the left option. And another that also takes a value, perhaps of a different type, that represents the right option.
+
+```
+const LeftA = left => right => left('A');
+const RightA = left => right => right('A');
+```
+
+Neat, right.
+
+## Computing with these encoded values
+
+So what. We can model data with JavaScript in an interesting way, but can we actually perform computations over this data? Well, of course. But not only that we do so in a rather interesting way.
+
+This is a rather complex concept to wrap one's head around, but what we really made it click for me, and which inspired this post is the following quote from Haskell For All.
+> In other words, Church encoding / Böhm-Berarducci encoding both work by maintaining a fiction that eventually somebody will provide us the “real” constructors right up until we actually need them. Then when we “pattern match” on the value we pull a last-minute bait-and-switch and use each “handler” of the pattern match where the constructor would normally go and everything works out so that we don’t need the constructor after all. Church-encoding is sort of like the functional programming equivalent of “fake it until you make it”.
+=> https://www.haskellforall.com/2021/01/the-visitor-pattern-is-essentially-same.html The visitor pattern is essentially the same thing as Church encoding
+
+We effectively swap out all of the data in our data structure with the form we want our data to take (that's the computation), and then because the entire structure is made of nothing but functions it collapses into the value we ultimately want.
+
+### EitherToString
+
+Take, for example, converting the Either type to a string, say, for logging.
+
+```
+const eitherToString = either => either(left => `Left: ${left}`)(right => `Right: ${right}`);
+
+eitherToString(LeftA); // "Left: A"
+eitherToString(RightA): // "Right: A"
+```
+
+We sort of define the mapping of taking left and converting it to "Left: ${left}" and define taking right and converting it to "Right: ${right}" and then let the functions collapse into the resulting string depending on what the value of `either` is.
+
+### Sum
+
+Similarly, we could define a function that sums a list of numbers.
+
+```
+const sum = list => list(0)((x,xs) => x + xs);
+```
+
+Note how we didn't need to call sum recursively on the tail of the list. The recursion is already defined in the data structure; we don't need to repeat ourselves.
+
+### To and From Native Arrays
+
+Whilst on the topic of computing on list specifically, I thought it worth mentioning that the code for converting between native JavaScript arrays and these linked lists isn't too hairy either.
+
+```
+const fromArray = array => nil => rest => array.reduce(((x,acc) => xs (x, acc)), nil);
+const toArray = list => list([])((x,xs) => [x, ...xs]);
+```
+
+I could go on, with all sorts of examples which for me at least is vindication that I've finally, really understood this stuff. Personally, I just find it to be nothing short of magical.
+
+## ~~~
+Last Updated: 2021-01-17
+=> / ..
