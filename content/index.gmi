@@ -15,6 +15,7 @@ The following is a list of brief guides for various programming related things.
 => techGuides/geminiRaspPi.gmi 2020-11-29 :: Running a Gemini server on a first-gen Raspberry Pi
 => techGuides/movingOffGoodreads.gmi 2021-01-02 :: Moving off of Goodreads
 => techGuides/unionTypesInJavaScript.gmi 2021-01-17 :: Union Types in JavaScript
+=> techGuides/areOperatorsEvenNecessary.gmi 2021-01-23 :: Are Operators Even Necessary?
 
 ### 🥧 Recipes
 An assortment of the recipes I've put together/perfected.

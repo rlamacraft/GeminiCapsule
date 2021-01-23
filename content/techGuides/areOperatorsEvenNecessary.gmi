@@ -1,0 +1,25 @@
+# Are Operators Even Necessary?
+
+## Software Complexity
+
+I've been thinking a lot about software complexity this week after watching the lecture, Preventing the Collapse of Civilization, by Jonathan Blow[1] -- a fantastic lecture, if a little over the top, about how software complexity is getting out of hand. Definitely worth watching, and if you find yourself getting bored with all of the history parts, skip to 13 mins in.
+
+One particular area of software complexity is the degree to which unclear code can have unnoticed side effects, an effect that in his most recent blog post, Drew DeVault coins "Spooky code at a distance". Of the two example he gives its the first, of operator overloading, that I think is of greater interest and raises the question about what even the point of operators is and whether they make the code unnecessarily ambiguous.
+
+## It's all a bit of a mess
+
+What operators, like "+", "+=", and "++", enable us to do is carry over and extend the concepts we all learn in school to the programming languages we use in a terse way. And that sounds simple, but its really not. If you sit down and think about it, they have quite inconsistent behaviour that we all just learn to memorise. When operating on numbers "+" is effectively a two-argument function that returns their sum: simple enough. Except, as Drew points out, if we're operating on strings then many languages treat the operator as concatenation -- but at least it still behaves as a function, with a returned value. "+=", "++", and others are quite different though, as they mutate variables. The "<something>=" class always mutate the left operand. The "<something><something>" class always mutate their only operand, but it could appear on the left or the right depending on whether the value is mutated before or after it is "returned". It's all a bit of a mess of inconsistencies and opaque mutation.
+
+## Ternary operators
+
+For anyone whose attempted to learn lisp, the benefits of symbols has probably been explained by allowing us to define our own conditional logic. In strict/eager evaluative languages (i.e. most) there is no way for us to define our own conditional logic subroutines becuase the computer will evalute all of the arguments before proceeding with our logic to determine which should be evaluated. Therefore, making if statements and -- pertient to this discussion -- ternary operators another additional complexity. One propietary language I once used solved this problem by requiring that all arguments to if subroutines be annoymous lambdas, where the boolean would determine which got executed. Ternary operators can be yet more complex than if statements, with some languages allowing the second argument to be excluded, making the first argument implicitly the second, which would be like allowing "a +=" to mean doubling a.
+
+## So, do we need operators?
+
+All this is to say, do we really need them? Would it not be better to avoid mutation and to be explicit. If you want to add two numbers then call an add function. If you want to concatenate strings then call a concatenation function. If you want to define your own conditional subroutines, I guess use a lazy language, but then name them. I think its important to be explicit about the intent of code even if the behaviour is the same as it is easier for others to read and understand and will ultimately lead to fewer bugs. That seems to make sense, right?
+
+## ~~~
+Last Updated: 2021-01-23
+=> https://www.youtube.com/watch?v=pW-SOdj4Kkk [1] :: Jonathan Blow - Preventing the Collapse of Civilization (English only) :: YouTube
+=> gemini://drewdevault.com/2021/01/19/Spooky-code-at-a-distance.gmi [2] :: Spooky code at a distance
+=> / ..
