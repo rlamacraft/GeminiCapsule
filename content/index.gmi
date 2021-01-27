@@ -30,6 +30,11 @@ I have a bit of an odd taste in music.
 
 => music/bardcore.gmi 2021-01-03 :: Bardcore
 
+### 🧶 Misc
+Some ramblings about random things.
+
+=> misc/theCaseForTimeZones.gmi 2021-01-27 :: The Case For Time Zones
+
 ### 🎁 Advent
 Meandering thoughts for every day of advent.
 

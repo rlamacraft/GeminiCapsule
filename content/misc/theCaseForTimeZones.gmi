@@ -1,0 +1,18 @@
+# The Case For Time Zones
+
+This is a brief rebuttal to the recently uploaded YouTube video The Case Against Time Zones[1] by A Hill To Die On[2]. In it, Evan argues that the world would be a lot simpler if there were a single time zone that covered the entire Earth such that it would be same time everywhere irregardless of the actually position of the Sun, in the same way that it is January everywhere even though it is only winter in the Northern hemisphere. It's a tempting proposition and does make some logical sense, especially when one considers that the invention of time zones replaced the prior system of every town having its own local time, with an entire country needing to be on the same time with the advent of railroads and the telegraph. With modern instantaneous communication, should we take the next logical step of simplification?
+
+I think not, and my reasoning for this is that the complexity of dealing with time zones is not that people around the world are at different times according to their clock, but that we all want to do certain activities relative to the Sun. If we all lived in underground bunkers, say in some post-apocalyptic future where the Sun is blocked from view by radioactive dust, then I would tend to agree: settling on a single, universal time would make sense. But whilst we all want to fundamentally live our lives out of sync, the existence of time zones only makes the management of that easier.
+
+I work with colleagues across Europe and America, spread over four different time zones. Instead of remembering how many hours east or west they are of me, without time zones, I would have to remember at what time they start and finish their work day, at what time they go for lunch, etc. Sure, there might be less confusion about what time a meeting is scheduled for, but arranging said meeting will be no easier when their availability remains unsynchronised with my own.
+
+Even makes the argument in the video that a single time zone across the global is just an extension of the vast time zones that cover areas like China, India, and Alaska. I think you can only push this so far though as its not that we want to perform certain tasks at precisely the time that the Sun is in position (we don't need to eat lunch when the Sun is precisely at its highest point); there is leway for a few hours either way. It doesn't matter whether you go to bed an hour after dusk or several, afterall we all personally live quite varied lifestyles anyway. The problem comes when the number of hours off our routine has to be from the celestial cycle is so great that it makes those activities difficult; like trying to sleep in the middle of the day.
+
+My solution is this: within a group pick a time zone and communicate solely in terms of that and let everyone adjust to their respective local time. If there is no one single time zone that is best for the majority of people then do what the ISS does and use UTC. When communicating with people outside of the group ALWAYS specify a time zone. Working with time zones really isn't that hard. Oh, and daylight savings, yeah we should all stop doing that.
+
+
+## ~~~
+Last Updated: 2021-01-27
+=> / ..
+=> https://www.youtube.com/watch?v=2W32bZgtqms [1] :: The Case Against Time Zones. :: YouTube
+=> https://www.youtube.com/channel/UC_EzCruiFF-QNJCkBOSCYhA [2] :: A Hill To Die On :: YouTube
