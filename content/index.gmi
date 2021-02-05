@@ -34,6 +34,7 @@ I have a bit of an odd taste in music.
 Some ramblings about random things.
 
 => misc/theCaseForTimeZones.gmi 2021-01-27 :: The Case For Time Zones
+=> misc/softwareEngineeringTicketingSystem.gmi 2021-02-05 :: Software Engineering Ticketing System
 
 ### 🎁 Advent
 Meandering thoughts for every day of advent.

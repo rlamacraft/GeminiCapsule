@@ -1,0 +1,24 @@
+# Software Engineering Ticketing System
+
+Like most professional software engineers I am stuck using JIRA on a daily basis; the bloated, over-engineered piece of crap that runs on servers that simply must be sitting behind a dial-up connection. This isn't a rant per se about how absolutely awful it is, nor how telling it is that so much of the programming community settles for *this* as their tool of choice but about what could be better.
+
+At first glance it would seem that just a bunch of plaintext files, perhaps in markdown (or gmi), checked into git would suffice. That would certainly give us a first approximation though it leaves some gapping holes that I think could be solved quite nicely with just a few simple additions.
+
+## Recutils
+
+The first is organisation. Our plaintext files would need a bit of structure if we were ever to be able to find anything in any reasonably sized project. A file per ticket would be simple but would make gathering an overview of the current state a little difficult. This is where Recutils[1] could step in, a human readable database stored in nothing but a plaintext file. The metadata about a ticket: dates, status, urgency could all be stored here, and reference a separate file for details and discussion.Recutils provides a collection of simple programs for doing the usual database things; filtering, selecting, joining, to and from csv, etc. Very easy to get some summary information about active tickets and the like.
+
+## Notifications
+
+One nice thing about JIRA and other similar tools that GitHub, Trello, and others provide is the ability to tag someone and have them be notified of a discussion they may not be following (not uncommon in large projects). Solution for this: generate RSS feeds for each team member, appending to the feed with each mention upon each commit. This might require a rule like no rebasing (even to fix typos), but I don't think that would be a problem. Everyone could then subscribe to their respective feeds and be notified by their RSS client of choice.
+
+## Visualisation
+
+And with the power of these tools it should be fairly straighforward to build a simple dashboard if one were so inclined, based on the Web (or Gemini), that lists the current active tickets, the current state of the project, and any discussion one must follow. All without any bloated, commercial software.
+
+Now, if only.
+
+## ~~~
+Last Updated: 2021-02-05
+=> / ..
+=> https://www.gnu.org/software/recutils/manual/html_node/index.html [1] :: GNU Recutils
