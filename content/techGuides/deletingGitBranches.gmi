@@ -1,0 +1,21 @@
+# Deleting Git Branches
+
+Rather than deleting local Git branches as I'm done with each (merging, discarding, etc), I tend to let them build up untill running `git branch` cover's half my screen. At which point, I perform a bulk delete; removing all but those I'm still working with.
+
+To bulk delete git branches I first load the full list into vi by running the following ex command in a new buffer
+```
+r! git branch
+```
+
+I then delete all of the lines for the branches I'm still working with.
+
+And then I finish up by running
+```
+%! xargs git branch -d
+```
+
+Which deletes the branch named by each line. Brilliant example of the power of pipes and a text editor that can read and write to shell commands.
+
+## ~~~
+Last Updated: 2021-03-17
+=> / ..

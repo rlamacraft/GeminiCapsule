@@ -16,6 +16,7 @@ The following is a list of brief guides for various programming related things.
 => techGuides/movingOffGoodreads.gmi 2021-01-02 :: Moving off of Goodreads
 => techGuides/unionTypesInJavaScript.gmi 2021-01-17 :: Union Types in JavaScript
 => techGuides/areOperatorsEvenNecessary.gmi 2021-01-23 :: Are Operators Even Necessary?
+=> techGuides/deletingGitBranches.gmi 2021-03-17 :: Deleting Git Branches
 
 ### 🥧 Recipes
 An assortment of the recipes I've put together/perfected.
