@@ -36,6 +36,7 @@ Some ramblings about random things.
 
 => misc/theCaseForTimeZones.gmi 2021-01-27 :: The Case For Time Zones
 => misc/softwareEngineeringTicketingSystem.gmi 2021-02-05 :: Software Engineering Ticketing System
+=> misc/unitsOfMeasureForADigitalAge.gmi 2021-03-28 :: Units of Measure for a Digital Age
 
 ### 🎁 Advent
 Meandering thoughts for every day of advent.

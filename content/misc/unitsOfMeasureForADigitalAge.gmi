@@ -1,0 +1,26 @@
+# Units of Measure for a Digital Age
+
+I've been thinking a bunch about the units that we use to measure things on a daily basis. 
+
+## Here's some of the things that sparked these thoughts
+
+* I recently learnt that an acre was traditionally defined as the amount of land that a single man and single ox could plow in a day, an interesting fact that shows the value in measuring things based on how the data will be used.
+* Pre-decimalisation, there were 240 pennies to a pound, which is arguably better than 100 as 240 is more divisible; just try splitting a tenner three ways.
+* I've been somewhat convinced that for most applications in the home kitchen, using volumetric units it more convenient than weight by Adam Ragusea on YouTube.
+* On my day job, I spent some time measuring upload speeds this past week and got confused between megabytes, megabits per second, and mibibits per second, all of which has very similar abbreviations.
+* I'm reading a book, The Art of Unix Programming, that has this to say
+> Do any of your APIs have more than seven entry points? Do any of your classes have more than seven methods each? Do your data stuctures have more than seven members?
+The reasoning being that any more than that is too much for the average person to keep in their head. I'm not sure I agree this entirely, but it all got me thinking:
+
+## Are there some colloquial units that we could use to measure quantities in the digital world?
+
+* Ways to measure code in terms of man-hours, or some units to measure complexity? If software were a little more rigorous of an engineering discipline I'm sure we'd make greater use of measurements like cyclomatic complexity and may have a better grasp on the technical debt that accumulates.
+* Or how about data in terms of download speed? I don't know many miles it is, but I know London is 4 hours away by train -- perhaps a standard measure of downloads purely in terms of time would at times be helpful, especially to non-technical folk e.g. I don't know how many gigabytes X file is but its 10 minutes over 4G.
+* We aim for our frame rates to be 60fps, giving 16ms the time available to ship a frame. Perhaps having some units that divided up 16ms into some highly divisible number (say, 60) to easily describe how much rendering time is being used by different parts of the code would make measuring and communicating about rendering performance easier.
+
+Maybe sometimes we're too precise in the digital world and some units to measure things on a human scale would make things easier?
+
+## ~~~
+Last Updated: 2021-03-28
+=> / ..
+
