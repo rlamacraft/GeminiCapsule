@@ -1,0 +1,43 @@
+# When to use a type system?
+
+My favourite programming language is AWK and the language that I have the most experience is (unfortunately) JavaScript and yet I consider type systems to be one of the greatest tools that we as software developers/engineers have for making robust software. Code typically describes the behaviour of some algorithm but the shape of the data that that algorithm operates on is crucial information both to ensure the correct behaviour of the algorithm and to communicate to future developers what the intent of the system is.
+
+Thinking about the trade-off between when it is best to use a language that has a good type system versus one that is more relaxed, I came up with a simple rule that I think captures what my opinions on the matter are.
+
+## Rule
+
+If any two of the following apply, then the programming language used should have a good type system.
+1. The project will involve more than 1 developer.
+2. The project will take more than a month.
+3. The project will involve multiple files.
+
+Here's some examples of when I don't think a type system is necessary.
+
+### Just one developer
+
+My master thesis took several months and the Python and AWK code spanned many files but because I was the only one working on it and I was working on it continuously I had the entire system inside my head. I remembered all of the intricacies and design decisions that didn't require extensive documentation and testing. I also fully understood the shape of all of the data was being processed and the burden of manipulating type definitions in addition to the logic would have been quite onerous. If I now had to return to the code, nearly a year later, I will have wished I'd used a language where the type system would help me understand how the code works but, alas there is no need because in all likelihood I shall never return to that code.
+
+### Less than a month
+
+Any code that will only exist for a month, or thereabouts, is simply not worth the time investement of well-defined types. Testing harnesses, mocking APIs, design prototypes and the like are often worth doing in languages that are more freeform. I don't have it on hand to quote directly, but I recall the AWK manual mentioning that programs were often prototyped in AWK at Bell Labs and reimplemented in C once the design was concrete and performance and maintainability became a greater concern.
+
+### Single file
+
+There aren't many projects that are constrained to a single file, but those that are rarely benefit from extensive typing. I think that the real power of type systems is in clearly deliniating the interface between systems and a single file simply doesn't have sufficient complexity to warrant such documentation. A typical example would be a shell script.
+
+## Anything else
+
+Any other code should use a good type system. No ifs. No buts.
+
+
+## Addendum 1: What is a *good* type system?
+
+A good type system, in my books, is one that is deeply integrated into the design of the programming language and in tern the design of the programming language was driven by the capabilities of the type system to guide the developer. Be they functional, object oriented, or anything else, these programming languages prevent the user from making dumb mistakes, speed up development, and faciliatate clear definitions of code and logic.
+
+## Addendum 2: If JavaScript should not be used from Web development, then what should.
+
+Simple: Elm, Reason ML, or perhaps PureScript. Hopefully, with the rise of WebAssembly, literally anything else too. JavaScript was never designed for what we use it for, and it is utter garbage. Flow and TypeScript are marginally better but they are severely limited by poor decisions in the design of the language that try to improve; nothing short of lipstick on a pig, in my opinion.
+
+## ~~~
+Last Updated: 2021-05-30
+=> / ..
