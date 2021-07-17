@@ -9,6 +9,11 @@ Hello, and welcome to my little space in the Geminisphere.
 
 ## Posts, by subject
 
+### 📃 Replies
+My replies to others' posts
+
+=> replies/makingBread.gmi 2021-07-17 :: RE: RE: Making bread by alexschroeder
+
 ### 🖥 Programming Guides
 The following is a list of brief guides for various programming related things.
 

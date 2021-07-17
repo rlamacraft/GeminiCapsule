@@ -1,0 +1,14 @@
+# RE: RE: Making bread by alexschroeder
+
+I've been baking bread at home on a somewhat regular basis for the past two and a half years, and as such I feel I have a degree of qualification in affirming Luminar's advice for aspiring home bakers.
+=> gemini://republic.circumlunar.space/users/luminar/text/201019-re-making-bread.gmi RE: Making Bread by alexschroeder
+
+It's definitely not an exact science, as much as some people would like to claim otherwise. There isn't some magic set of variables that will make perfect loaves every time; maybe there is when doing hundreds of loaves every day but not for the home baker. There are simply too many variables to account for and you just have to work by feel most of the time.
+
+As for not getting discouraged, even after doing this dozens of times it still common for my loaves to come out rather flat (comically so occasionally), under baked on the underneath, or just simply not very flavourful. Baking bread isn't easy but there's also no such thing as bad homemade bread. I never throw out these "failures", I just use the bread for different recipes. Soda bread is what I've failed at the most, just simply getting the chemistry wrong, and that's the closest I've gotten to inedible. Yeast is so much harder to screw up.
+
+Finally, where to start. Recently someone, who hasn't made bread before, asked me to walk them through how to make sourdough. There's no getting around the fact that they're going to struggle; natural leavens are a much more fickle thing than commercial yeasts. Definitely start with simple recipes, and to introduce longer fermentations to make more flavourful loaves I recommend starting with a Biga or Poolish -- as Ken Forkish describes in his book Flour, Water, Salt, Yeast -- before diving into sourdough.
+
+## ~~~
+Last Updated: 2021-07-17
+=> / ..
